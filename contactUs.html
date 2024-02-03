@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="assets/css/contact.css">
+</head>
+
+<body>
+
+
+    <header>
+
+        <div class="logo-container">
+            <div class="logo">
+                <img src="assets/images/logo.png" alt="College Logo">
+            </div>
+
+ 
+            <div class="school-name">
+                <div class="english">
+                    <h1>Debarawewa Central College</h1>
+                </div>
+                <div class="sinhala">
+                    <h1>හ/ දෙබරවැව මධ්‍ය මහා විද්‍යාලය (ජාතික පාසල)</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-icon">&#9776;</div>
+
+    
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="course.html">Courses</a></li>
+                <li><a href="admission.html">Admissions</a></li>
+                <li><a href="aboutUs.html">About Us</a></li>
+                <li><a href="contactUs.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Send us a message</h2>
+
+        <form id="addmission-form" action="#" method="post" onsubmit="submitForm(event)">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+        <div class="submitted-message" id="submitted-message"   style="display: none;">Submitted!</div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Your Website Name. All Rights Reserved.</p>
+    </footer>
+<script src="assets/js/contact.js"></script>
+</body>
+
+</html>

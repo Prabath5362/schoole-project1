@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission | Debarawewa Central College</title>
+    <link rel="stylesheet" href="assets/css/admission.css">
+
+    
+</head>
+<body>
+
+
+ 
+     <header>
+    
+        <div class="logo-container">
+            <div class="logo">
+                <img src="assets/images/logo.png" alt="College Logo">
+            </div>
+
+          
+            <div class="school-name">
+                <div class="english">
+                    <h1>Debarawewa Central College</h1>
+                </div>
+                <div class="sinhala">
+                    <h1>හ/ දෙබරවැව මධ්‍ය මහා විද්‍යාලය (ජාතික පාසල)</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-icon">&#9776;</div>
+
+ 
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="course.html">Courses</a></li>
+                <li><a href="admission.html">Admissions</a></li>
+                <li><a href="aboutUs.html">About Us</a></li>
+                <li><a href="contactUs.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        
+        <section class="admission-section">
+            
+            <h2 class="admission-title">Admission Information</h2>
+            <div class="admissions-text">
+                <p class="admission-description">
+                    Welcome to Debarawewa Central College! We are excited to have you join our school.
+                    Please fill out the admission form below to start your journey with us.
+                </p>
+            </div>
+            
+
+  
+            <div class="admission-form">
+                <form id="addmission-form" onsubmit="submitForm(event)">
+                    <label for="student-name">Student Name:</label>
+                    <input type="text" id="student-name" name="student-name" required>
+
+                    <label for="grade">Grade:</label>
+                    <select id="grade" name="grade" required>
+                        <option value="grade-6">Grade 1</option>
+                        <option value="grade-7">Grade 2</option>
+                        <option value="grade-8">Grade 3</option>
+                        <option value="grade-8">Grade 4</option>
+                        <option value="grade-8">Grade 5</option>
+                        <option value="grade-8">Grade 6</option>
+                        <option value="grade-8">Grade 7</option>
+                        <option value="grade-8">Grade 8</option>
+                        <option value="grade-8">Grade 9</option>
+                        <option value="grade-8">Grade 10</option>
+                        <option value="grade-8">Grade 11</option>
+                        <option value="grade-8">Grade 12</option>
+                        <option value="grade-8">Grade 13</option>
+                      
+
+                    </select>
+
+                    <label for="parent-name">Parent/Guardian Name:</label>
+                    <input type="text" id="parent-name" name="parent-name" required>
+
+                    <label for="contact-number">Contact Number:</label>
+                    <input type="tel" id="contact-number" name="contact-number" required>
+
+                    <button type="submit" >Submit Admission Form</button>
+                </form>
+
+                <div class="submitted-message" id="submitted-message"   style="display: none;">Submitted!</div>
+            </div>
+        </section>
+    </main>
+
+    
+
+
+<script src="assets/js/admission.js"></script>
+</body>
+
+</html>
